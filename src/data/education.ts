@@ -1,26 +1,30 @@
 export interface Education {
-  year: string;
-  institution: string;
-  degree: string;
-  advisor?: string;
-  thesis?: string;
-  thesisUrl?: string;
+	year: string;
+	institution: string;
+	degree: string;
+	major?: string;
+	advisor?: string;
+	thesis?: string;
+	thesisUrl?: string;
 }
 
 export const educationData: Education[] = [
-  // If you don't want to show education, just make the array empty.
-  {
-    year: "2021—Present",
-    institution: "Stanford University",
-    degree: "Ph.D. in Computer Science",
-    advisor: "Prof. Sarah Johnson",
-  },
-  {
-    year: "2017—2021",
-    institution: "Massachusetts Institute of Technology",
-    degree: "B.S. in Computer Science and Mathematics",
-    thesis: "Algorithmic Approaches to Causal Discovery",
-    // Optional links to thesis
-    // thesisUrl: "https://dspace.mit.edu/handle/1721.1/149111"
-  },
+	// If you don't want to show education, just make the array empty.
+	{
+		year: "2025 — 2025",
+		institution: "BrainStation",
+		degree: "Software Engineering diploma program",
+		major: "Full Stack Web App Development",
+	},
+	{
+		year: "2020 — 2022",
+		institution: "British Columbia Institute of Technology",
+		degree: "Diploma in Computer System Technology",
+		major: "Cloud Computing",
+	},
+	{
+		year: "2016 — 2018",
+		institution: "Capilano University",
+		degree: "Diploma in Costuming for Stage and Screen",
+	},
 ];

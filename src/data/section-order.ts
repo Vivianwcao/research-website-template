@@ -1,15 +1,15 @@
 export enum Section {
-  Education = "education",
-  Experience = "experience",
-  Portfolio = "portfolio",
-  Publication = "publication",
-  News = "news",
+	Education = "education",
+	Experience = "experience",
+	Portfolio = "portfolio",
+	Publication = "publication",
+	News = "news",
 }
 
 export const sectionOrder = [
-  Section.News,
-  Section.Education,
-  Section.Publication,
-  Section.Experience,
-  Section.Portfolio,
+	Section.News,
+	Section.Portfolio,
+	Section.Experience,
+	Section.Education,
+	Section.Publication,
 ];

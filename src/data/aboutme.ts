@@ -1,39 +1,65 @@
 export interface AboutMe {
-  name: string;
-  title: string;
-  institution: string;
-  description: string;
-  email: string;
-  imageUrl?: string;
-  blogUrl?: string;
-  cvUrl?: string;
-  googleScholarUrl?: string;
-  twitterUsername?: string;
-  githubUsername?: string;
-  linkedinUsername?: string;
-  funDescription?: string; // Gets placed in the left sidebar
-  secretDescription?: string; // Gets placed in the bottom
-  altName?: string;
-  institutionUrl?: string;
+	name: string;
+	title: string;
+	institution?: string;
+	description: string;
+	email: string;
+	imageUrl?: string;
+	blogUrl?: string;
+	cvUrl?: string;
+	googleScholarUrl?: string;
+	twitterUsername?: string;
+	githubUsername?: string;
+	linkedinUsername?: string;
+	funDescription?: string; // Gets placed in the left sidebar
+	secretDescription?: string; // Gets placed in the bottom
+	altName?: string;
+	institutionUrl?: string;
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
-  // Note that links work in the description
-  description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
-  imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
-  // altName: "",
-  // secretDescription: "I like dogs.",
+	name: "Vivian Cao",
+	title:
+		"Software Engineer | Web App Developer | JavaScript, React, NodeJS, SQL, Python, Java, AWS, Deveops",
+	// institution: "BCIT",
+	// Note that links work in the description
+	description: `Hi, my name is Vivian Cao. I’m a software developer from Vancouver, 
+  BC, who loves solving problems and paying attention to the little details.<br /><br />
+  I have a diploma in Computer Systems Technology, majoring in Cloud Computing,
+  mainly focused on DevOps engineering and AWS configurations. Along the way,
+  I’ve built web applications using JavaScript and SQL on different platforms,
+  developed Android apps with Dart (Flutter) in Android Studio, and explored algorithms,
+  design patterns, and OS concepts in Python, Java, and C.<br /><br /> Recently,
+  I completed the Software Engineering Diploma Program at BrainStation,
+  where I focused on building full stack web applications using React, Sass, and MySQL.
+  My projects also involved working with non relational databases like Firebase and Firestore,
+  which you can see in my latest Capstone project
+  <a href="https://blackjackroyalebyvivian.netlify.app" target="_blank" style="color: #991194"><i><b>Blackjack Royale</b></i></a>,
+  as well as MongoDB. I also worked on serving serverless functions for
+  <a href="https://simplydonebyvivian.vercel.app" target="_blank" style="color: #991194"><i><b>SimplyDone</b></i></a>.<br /><br />
+  During my time at BCIT, two internships gave me hands on experience working in teams of five to seven people,
+  where we built web applications using React and its libraries.
+  It was an exciting challenge to collaborate and bring ideas to life.<br /><br />
+  Lately, I have been diving into React ES19 hooks, design patterns, optimization techniques,
+  and JWT authentication. As someone who enjoys math and algorithms,
+  I love thinking back and forth about different mechanisms.
+  When there is time, another mini game is definitely on my to do list,
+  something similar to
+  <a href="https://blackjackroyalebyvivian.netlify.app" target="_blank" style="color: #991194"><i><b>Blackjack Royale</b></i></a> but with more algorithms and calculations.<br /><br />
+  Outside of coding, you might catch me lost in thought at a grocery store,
+  trying to recall last night’s coding lesson. 😅 I also love baking🍰, gardening🪻, painting🎨,
+  and figure skating. If you have cake recipes, gardening tips, or cool watercolor tricks, let’s chat.
+  I would love to hear about them!❤️`,
+	email: "vivian.w.cao@gmail.com",
+	imageUrl: "/images/me.png",
+	//googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
+	githubUsername: "vivianwcao",
+	linkedinUsername: "vivianwcao",
+	//twitterUsername: "janesmith",
+	//blogUrl: "https://",
+	cvUrl: "https://",
+	//institutionUrl: "https://www.stanford.edu",
+	//altName: "",
+	secretDescription:
+		"Passionate baker🍰, watercolor painter and figure skater⛸️",
 };

@@ -24,7 +24,7 @@ export const aboutMe: AboutMe = {
 	// institution: "BCIT",
 	// Note that links work in the description
 	description: `Hi, my name is Vivian Cao. I’m a software developer from Vancouver, 
-  BC, who loves solving problems and paying attention to the little details.<br /><br />
+  BC🍁, who loves solving problems and paying attention to the little details.<br /><br />
   I have a diploma in Computer Systems Technology, majoring in Cloud Computing,
   mainly focused on DevOps engineering and AWS configurations. Along the way,
   I’ve built web applications using JavaScript and SQL on different platforms,
@@ -34,9 +34,8 @@ export const aboutMe: AboutMe = {
   where I focused on building full stack web applications using React, Sass, and MySQL.
   My projects also involved working with non relational databases like Firebase and Firestore,
   which you can see in my latest Capstone project
-  <a href="https://blackjackroyalebyvivian.netlify.app" target="_blank" style="color: #991194"><i><b>Blackjack Royale</b></i></a>,
-  as well as MongoDB. I also worked on serving serverless functions for
-  <a href="https://simplydonebyvivian.vercel.app" target="_blank" style="color: #991194"><i><b>SimplyDone</b></i></a>.<br /><br />
+  <a href="https://blackjackroyalebyvivian.netlify.app" target="_blank" style="color: #991194"><i><b>Blackjack Royale</b></i></a>. I also incorporated MongoDB and serverless functions in my mini project
+  <a href="https://simplydonebyvivian.vercel.app" target="_blank" style="color: #991194"><i><b>SimplyDone</b></i></a>, a to-do app.<br /><br />
   During my time at BCIT, two internships gave me hands on experience working in teams of five to seven people,
   where we built web applications using React and its libraries.
   It was an exciting challenge to collaborate and bring ideas to life.<br /><br />

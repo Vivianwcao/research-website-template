@@ -15,7 +15,7 @@ export const experienceData: Experience[] = [
 		title: "Member Service Representative",
 		company: "Costco Langley",
 		description:
-			"Provided exceptional services and ensured pleasant shopping experiences for customers.",
+			"Achieved the highest accuracy rate in merchandise scanning at the exit, reducing missed or unpaid items.",
 		companyUrl: "https://www.costco.ca/",
 	},
 	{

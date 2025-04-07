@@ -23,7 +23,7 @@ export const aboutMe: AboutMe = {
 		"Software Engineer | Web App Developer | JavaScript, React, NodeJS, SQL, Python, Java, AWS, Deveops",
 	// institution: "BCIT",
 	// Note that links work in the description
-	description: `Hi, my name is Vivian Cao. I’m a software developer from Vancouver, 
+	description: `Hi, my name is Vivian Cao. I’m a software developer based in Vancouver, 
   BC🍁, who loves solving problems and paying attention to the little details.<br /><br />
   I have a diploma in Computer Systems Technology, majoring in Cloud Computing,
   mainly focused on DevOps engineering and AWS configurations. Along the way,
@@ -56,7 +56,8 @@ export const aboutMe: AboutMe = {
 	linkedinUsername: "vivianwcao",
 	//twitterUsername: "janesmith",
 	//blogUrl: "https://",
-	cvUrl: "https://",
+	cvUrl:
+		"https://docs.google.com/document/d/1SRp213gbkpQMN8G5Pt2wjpnbILSS5Dl9fNTtUa3zRSM/edit?tab=t.0#heading=h.iiyr3pyfm9ag",
 	//institutionUrl: "https://www.stanford.edu",
 	//altName: "",
 	secretDescription:

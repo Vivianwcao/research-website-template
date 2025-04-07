@@ -1,7 +1,7 @@
 import { EducationEntry } from "@/components/education-entry";
 import { educationData } from "@/data/education";
-// import { PublicationEntry } from "@/components/publication-entry";
-// import { publicationData } from "@/data/publication";
+import { PublicationEntry } from "@/components/publication-entry";
+import { publicationData } from "@/data/publication";
 import { ProfileSection } from "@/components/profile-section";
 import { aboutMe } from "@/data/aboutme";
 import { NewsEntry } from "@/components/news-entry";
@@ -75,26 +75,26 @@ export default function Home() {
 											</section>
 										)
 									);
-								// case Section.Publication:
-								//   return (
-								//     publicationData.length > 0 && (
-								//       <section key={sectionName}>
-								//         <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
-								//           Publications
-								//         </h2>
-								//         <div className="space-y-12">
-								//           {publicationData.map((publication, index) => (
-								//             <div key={index}>
-								//               <PublicationEntry publication={publication} />
-								//               {index < publicationData.length - 1 && (
-								//                 <div className="h-px bg-zinc-200 my-8" />
-								//               )}
-								//             </div>
-								//           ))}
-								//         </div>
-								//       </section>
-								//     )
-								//   );
+								case Section.Publication:
+									return (
+										publicationData.length > 0 && (
+											<section key={sectionName}>
+												<h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+													More about me ✨✨
+												</h2>
+												<div className="space-y-12">
+													{publicationData.map((publication, index) => (
+														<div key={index}>
+															<PublicationEntry publication={publication} />
+															{index < publicationData.length - 1 && (
+																<div className="h-px bg-zinc-200 my-8" />
+															)}
+														</div>
+													))}
+												</div>
+											</section>
+										)
+									);
 								case Section.Experience:
 									return (
 										experienceData.length > 0 && (

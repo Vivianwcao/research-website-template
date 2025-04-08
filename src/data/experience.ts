@@ -29,7 +29,7 @@ export const experienceData: Experience[] = [
 		companyUrl: "https://www.linkedin.com/company/talentmarketplace/",
 	},
 	{
-		date: "April 2021 – May 2021",
+		date: "Jan 2021 – May 2021",
 		title: "Frontend Developer Intern",
 		company: "CheckingIn",
 		description:

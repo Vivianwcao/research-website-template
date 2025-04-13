@@ -6,11 +6,11 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
 	return (
 		<div className="flex flex-col sm:flex-row gap-6">
 			{portfolio.imageUrl && (
-				<div className="w-[100%] sm:w-[42%] min-w-[160px] relative">
+				<div className="w-[100%] sm:w-[50%] min-w-[160px] relative">
 					<img
 						src={portfolio.imageUrl}
 						alt={portfolio.title}
-						width={500}
+						width={400}
 						height="auto"
 						className="rounded-lg"
 					/>

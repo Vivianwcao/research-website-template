@@ -11,14 +11,6 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
 	{
-		date: "Jun 2022 – Current",
-		title: "Member Service Representative",
-		company: "Costco Langley",
-		description:
-			"Achieved the highest accuracy rate in merchandise scanning at the exit, reducing missed or unpaid items.",
-		companyUrl: "https://www.costco.ca/",
-	},
-	{
 		date: "Sep 2021 – Dec 2021",
 		title: "Frontend Developer Intern",
 		company: "TalentMarketplace",
@@ -37,6 +29,21 @@ export const experienceData: Experience[] = [
 		advisor: "Language & framework: ReactJS, Node.JS, CSS, Rest API.",
 
 		companyUrl: "https://www.linkedin.com/company/checkingin-co/",
+	},
+	{
+		date: "Jun 2022 – Current",
+		title: "Member Service Representative",
+		company: "Costco Langley",
+		description:
+			"Achieved the highest accuracy rate in merchandise scanning at the exit, reducing missed or unpaid items.",
+		companyUrl: "https://www.costco.ca/",
+	},
+	{
+		date: "Feb 2023 – Current",
+		title: "Children’s Meeting Service Coordinator",
+		company: "Local Church of Langley",
+		description:
+			"Collaborated with a team to plan schedules, manage resources, prepare snacks, Bible studies, singing sessions, crafts, and physical activities for children aged 3 to 13.",
 	},
 	{
 		date: "Nov 2013 – Jan 2020",

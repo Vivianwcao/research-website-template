@@ -10,7 +10,7 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
 					<img
 						src={portfolio.imageUrl}
 						alt={portfolio.title}
-						width={400}
+						width={500}
 						height="auto"
 						className="rounded-lg"
 					/>

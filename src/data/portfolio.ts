@@ -49,7 +49,7 @@ export const portfolioData: Portfolio[] = [
 	{
 		title: "BizBot AI",
 		description:
-			"A 24-hour Microsoft Industry Hackathon team project implemented by team of 6. BizBot AI delivers a crystal-clear AI adoption plan tailored to each business's unique needs, transforming AI complexity into accessible business value for Microsoft users.",
+			"A 24-hour Microsoft Industry Hackathon team project implemented by team of seven. BizBot AI delivers a crystal-clear AI adoption plan tailored to each business's unique needs, transforming AI complexity into accessible business value for Microsoft users.",
 		technologies: [
 			"React.js",
 			"JavaScript",

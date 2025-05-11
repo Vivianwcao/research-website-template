@@ -10,7 +10,7 @@ export interface Portfolio {
 export const portfolioData: Portfolio[] = [
 	// Example entry
 	{
-		title: "Black Royale",
+		title: "Blackjack Royale",
 		description:
 			"Blackjack Royale is an online multiplayer Blackjack game where players can log in with Gmail or Outlook account, and either start a new game or join an existing one on the lobby page. Multiple games can run at the same time in separate rooms, allowing different groups to play without interfering with each other. Firestore database handles real-time updates, making the gameplay smooth and interactive.",
 		technologies: [

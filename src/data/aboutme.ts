@@ -20,7 +20,7 @@ export interface AboutMe {
 export const aboutMe: AboutMe = {
 	name: "Vivian Cao",
 	title:
-		"Software Engineer | Web App Developer | JavaScript, React, NodeJS, SQL, Python, Java, AWS, Deveops",
+		"Software Engineer | Full-Stack Developer | JavaScript, React, NodeJS, SQL, Python, Java, AWS, Deveops",
 	// institution: "BCIT",
 	// Note that links work in the description
 	description: `Hi, my name is Vivian Cao. I’m a software developer based in Vancouver, 
@@ -36,9 +36,7 @@ export const aboutMe: AboutMe = {
   which you can see in my latest Capstone project
   <a href="https://blackjackroyalebyvivian.netlify.app" target="_blank" style="color: #991194"><i><b>Blackjack Royale</b></i></a>. I also incorporated MongoDB and serverless functions in my mini project
   <a href="https://simplydonebyvivian.vercel.app" target="_blank" style="color: #991194"><i><b>SimplyDone</b></i></a>, a to-do app.<br /><br />
-  During my time at BCIT, two internships gave me hands on experience working in teams of five to seven people,
-  where we built web applications using React and its libraries.
-  It was an exciting challenge to collaborate and bring ideas to life.<br /><br />
+
   Lately, I have been diving into React ES19 hooks, design patterns, optimization techniques,
   and JWT authentication. As someone who enjoys math and algorithms,
   I love thinking back and forth about different mechanisms.
@@ -57,7 +55,7 @@ export const aboutMe: AboutMe = {
 	//twitterUsername: "janesmith",
 	//blogUrl: "https://",
 	cvUrl:
-		"https://docs.google.com/document/d/1SRp213gbkpQMN8G5Pt2wjpnbILSS5Dl9fNTtUa3zRSM/edit?tab=t.0#heading=h.iiyr3pyfm9ag",
+		"https://docs.google.com/document/d/1cD3iN-tFr_TXScpu5LkBnEeOyMs3-6JxtyKi-GoWuUE/edit?usp=sharing",
 	//institutionUrl: "https://www.stanford.edu",
 	//altName: "",
 	secretDescription:

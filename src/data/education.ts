@@ -27,4 +27,9 @@ export const educationData: Education[] = [
 		institution: "Capilano University",
 		degree: "Diploma in Costuming for Stage and Screen",
 	},
+	{
+		year: "2014 — 2014",
+		institution: "British Columbia Institute of Technology",
+		degree: "Color Theory for Design & Graphics",
+	},
 ];

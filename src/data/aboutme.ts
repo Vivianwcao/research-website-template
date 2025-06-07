@@ -31,8 +31,8 @@ export const aboutMe: AboutMe = {
   developed Android apps with Dart (Flutter) in Android Studio, and explored algorithms,
   design patterns, and OS concepts in Python, Java, and C.<br /><br /> Recently,
   I completed the Software Engineering Diploma Program at BrainStation,
-  where I focused on building full stack web applications using React, Sass, and MySQL.
-  My projects also involved working with non relational databases like Firebase and Firestore,
+  where I focused on building full stack web applications using React, Sass, and MySQL/PostgreSQL.
+  My projects also involved working with non relational databases like Firestore(Firebase) and MongoDB,
   which you can see in my latest Capstone project
   <a href="https://blackjackroyalebyvivian.netlify.app" target="_blank" style="color: #991194"><i><b>Blackjack Royale</b></i></a>. I also incorporated MongoDB and serverless functions in my mini project
   <a href="https://simplydonebyvivian.vercel.app" target="_blank" style="color: #991194"><i><b>SimplyDone</b></i></a>, a to-do app.<br /><br />

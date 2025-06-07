@@ -27,7 +27,7 @@ export const aboutMe: AboutMe = {
   BC🍁, who loves solving problems and paying attention to the little details.<br /><br />
   I have a diploma in Computer Systems Technology, majoring in Cloud Computing,
   mainly focused on DevOps engineering and AWS configurations. Along the way,
-  I’ve built web applications using JavaScript and SQL on different platforms,
+  I’ve built web applications using JavaScript and SQL/NoSQL on different platforms,
   developed Android apps with Dart (Flutter) in Android Studio, and explored algorithms,
   design patterns, and OS concepts in Python, Java, and C.<br /><br /> Recently,
   I completed the Software Engineering Diploma Program at BrainStation,

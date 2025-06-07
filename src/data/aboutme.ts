@@ -33,7 +33,7 @@ export const aboutMe: AboutMe = {
   I completed the Software Engineering Diploma Program at BrainStation,
   where I focused on building full stack web applications using React, Sass, and MySQL/PostgreSQL.
   My projects also involved working with non relational databases like Firestore(Firebase) and
-  <a href="https://deckofcardsapi.com/" target="_blank" style="underline: none">Deck Of Card</a> REST API,
+  <a href="https://deckofcardsapi.com/" target="_blank" style="text-decoration: none"><i>Deck Of Cards</i></a> REST API,
   which you can see in my latest Capstone project
   <a href="https://blackjackroyalebyvivian.netlify.app" target="_blank" style="color: #991194"><i><b>Blackjack Royale</b></i></a>. I also incorporated MongoDB and serverless functions in my mini project
   <a href="https://simplydonebyvivian.vercel.app" target="_blank" style="color: #991194"><i><b>SimplyDone</b></i></a>, a to-do app.<br /><br />
